@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html class="fontawesome-i2svg-active fontawesome-i2svg-complete">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>RealGeneral</title>
+  <link rel="icon" type="image" href="static/images/icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">RealGeneral: Unifying Visual Generation via Temporal In-Context Learning with Video Models</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a target="_blank">Yijing Lin</a>,</span>
+                <span class="author-block">
+                  <a href="https://corleone-huang.github.io/" target="_blank">Mengqi Huang</a>,</span>
+                  <span class="author-block">
+                    <a target="_blank">Shuhan Zhuang</a>,</span>
+                    <span class="author-block">
+                      <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=m-0P8sgAAAAJ" target="_blank">Zhendong Mao</a><sup>✝</sup>,</span>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">University of Science and Technology of China,</span>
+                    <span class="eql-cntrb"><small><br><sup>✝</sup>Corresponding author.</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span> -->
+
+                <!-- ArXiv abstract Link
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span> -->
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/first_image.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Results from our RealGeneral, demonstrate the ability to produce high-quality images from diverse input conditions.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Unifying diverse image generation tasks within a single framework remains a fundamental challenge in visual generation. While large language models (LLMs) achieve unification through task-agnostic data and generation, existing visual generation models fail to meet these principles. Current approaches either rely on per-task datasets and large-scale training or adapt pre-trained image models with task-specific modifications, limiting their generalizability. In this work, we explore video models as a foundation for unified image generation, leveraging their inherent ability to model temporal correlations. We introduce RealGeneral, a novel framework that reformulates image generation as a conditional frame prediction task, analogous to in-context learning in LLMs. To bridge the gap between video models and condition-image pairs, we propose (1) a Unified Conditional Embedding module for multi-modal alignment and (2) a Unified Stream DiT Block with decoupled adaptive LayerNorm and attention mask to mitigate cross-modal interference. RealGeneral demonstrates effectiveness in multiple important visual generation tasks, e.g., it achieves a 14.5% improvement in subject similarity for customized generation and a 10% enhancement in image quality for canny-to-image task.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+  <div class="columns is-centered has-text-centered">
+    <div class="column">
+      <h2 class="title is-3">How does it work?</h2>
+      <img src="./static/images/pipeline.png" alt="Interpolate start reference image.">
+    <div class="content has-text-left">
+      <p>
+        <b>Core Idea: </b>
+        Inspired by LLMs that unify textual generation through unlabeled large-scale text pretraining and in-context learning abilities, 
+        we argue that the video foundation model pre-trained on massive continuous visual data can similarly unify the visual generation tasks. 
+        Analogous to how LLMs autoregressively predict tokens conditioned on previous context, video models can naturally extend this concept to 
+        temporal visual frames, predicting subsequent frames from preceding ones. We show two frames here for simplicity.
+        <br>
+        <b>Training Paradigm: </b> 
+        First, two images are separately encoded by VAE. The Unified Condition Embedding Module integrates textual and global task priors into 
+        the condition frame while adding noise to the target frame. Then all tokens are concatenated into a sequence entering the Unified Stream 
+        DiT Block. The Separated Condition AdaLN Module modulates text, condition, and target tokens independently via three distinct branches, 
+        enforcing semantic separation between condition and target frame. 
+        The Frame-Condition Decoupling Module employs an attention mask to prevent interactions between the condition image and text. 
+        We train RealGeneral using LoRA.
+        <br>
+      </p>
+    </div>
+    </div>
+  </div>
+  </div>
+  <br>
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-3">Comparison To Current Methods</h2>
+        <img src="./static/images/compare.jpg" alt="Interpolate start reference image.">
+        <img src="./static/images/compare_2.png" alt="Interpolate start reference image.">
+      <div class="content has-text-left">
+        <p>
+          <b>Qualitative results: </b>Compared to other methods, RealGeneral produces more precise details and better adherence to the prompt, 
+          underlining its effectiveness in both subject consistency and text controllability for multiple tasks.
+        </p>
+        <img src="./static/images/quantative.jpg" alt="Interpolate start reference image.">
+        <p>
+          <b>Quantitative results: </b>Compared to existing methods, our method demonstrates significant improvement in image similarity, while attains comparable CLIP-T score.
+        </p>
+      </div>
+      </div>
+    </div>
+    </div>
+</section>
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="section-title">
+        <h2 class="title is-3 has-text-centered">More Results</h2>
+        </div>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <div class="has-text-centered">
+          <img src="static/images/results1.png" alt="MY ALT TEXT" style="width:600px; height:auto;" />
+        </div>
+        <h2 class="subtitle has-text-centered">
+          The results of customization task.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <div class="has-text-centered">
+          <img src="static/images/results2.png" alt="MY ALT TEXT" style="width:500px; height:auto;" />
+        </div>
+        <h2 class="subtitle has-text-centered">
+          The results of canny-to-image task.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <div class="has-text-centered">
+          <img src="static/images/results3.png" alt="MY ALT TEXT" style="width:500px; height:auto;" />
+        </div>
+        <h2 class="subtitle has-text-centered">
+          The results of depth-to-image task.
+       </h2>
+     </div>
+     <div class="item">
+      <!-- Your image here -->
+      <div class="has-text-centered">
+        <img src="static/images/results4.png" alt="MY ALT TEXT" style="width:500px; height:auto;" />
+      </div>
+      <h2 class="subtitle has-text-centered">
+        The results of inpainting and coloring tasks.
+      </h2>
+    </div>
+    <div class="item">
+      <!-- Your image here -->
+      <div class="has-text-centered">
+        <img src="static/images/results5.png" alt="MY ALT TEXT" style="width:500px; height:auto;" />
+      </div>
+      <h2 class="subtitle has-text-centered">
+        The results of image-to-depth and deblurring tasks.
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+
+
+<!-- Youtube video -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container"> -->
+      <!-- Paper video. -->
+      <!-- <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video"> -->
+            <!-- Youtube embed code here -->
+            <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End youtube video -->
+
+
+<!-- Video carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%"> -->
+            <!-- Your video file here -->
+            <!-- <source src="static/videos/carousel1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%"> -->
+            <!-- Your video file here -->
+            <!-- <source src="static/videos/carousel2.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\ -->
+            <!-- Your video file here -->
+            <!-- <source src="static/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End video carousel -->
+
+
+
+
+
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <!-- <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section> -->
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
